@@ -1,0 +1,295 @@
+meta:
+  direction: ltr            # text direction, "ltr" (like English) or "rtl" (like Arabic), default is "ltr"
+  language: pt              # text language, the value is HTML lang attribute value, default is "en"
+
+basic:
+  name: Vinicius Mello e Müller                      # name
+  title: Engenheiro Químico           # job title
+  avatar:
+    show: false                       # show or hide avatar
+    path: /assets/images/profile.png # file path or link to your avatar
+
+contact:
+  location: Indaiatuba, SP, Brasil  # location, text or markdown link syntax
+  email: viniciusmelloemuller@gmail.com     # email address
+  phone: +55-19-99699-1787  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  # website: www.linkedin.com/in/vinicius-mello-e-müller-243143221      # site link without schema, like example.com, will automatically prepend "https://"
+
+  # gender: he                   # gender or pronoun
+  # birthday: 01/02/2001                 # birthday
+  # nationality: Brazilian              # nationality
+  visa:                     # passport visa
+  drivinglicense:           # driving licence
+
+  # ! Do not paste the link directly.
+  # Please copy the <> part of the comment in the link to your profile on the relevant site and paste it here.
+
+  # programming
+  github:                   ViniMelloeMuller
+  gitlab:                   # https://gitlab.com/<username>
+  bitbucket:                # https://bitbucket.com/<username>
+  git:                      # selfhost git site link without schema "https://"
+  leetcode:                 # https://leetcode.com/<username>
+  codeforces:               # https://codeforces.com/profile/<username>
+  codewars:                 # https://www.codewars.com/users/<username>
+  topcoder:                 # https://profiles.topcoder.com/<username>
+  huggingface:              # https://huggingface.co/<username>
+  codepen:                  # https://codepen.io/<username>
+  tryhackme:                # https://tryhackme.com/p/<username>
+
+  # research
+  googlescholar:  gYkROuIAAAAJ&hl # https://scholar.google.com/citations?user=<username>
+  researchgate:             # https://www.researchgate.net/profile/<username>
+  orcid:                    # https://orcid.org/<id>
+  figshare:                 # https://figshare.com/authors/<name/id>
+  kaggle:                   # https://www.kaggle.com/<username>
+
+  # writing
+  medium:                   # https://medium.com/@<username>
+
+  # cv
+  linkedin:                vinicius-mello-e-müller-243143221 
+
+profile:
+  show: true
+  order: 1
+  title: Sobre
+  description: |
+    Engenheiro químico especializado na aplicação de IA para solucionar desafios industriais complexos. Experiência no desenvolvimento e implementação de soluções para controle de processos, detecção de anomalias e Detecção e Diagnóstico de Falhas (FDD). Atualmente, cursa mestrado com foco em pesquisa sobre o uso de Modelos de Linguagem (LLMs) para aprimorar a análise de segurança de processos (HAZOP).
+experience:
+  show: true
+  order: 2
+  title: Experiência
+  items:
+    - company: iSystems
+      link: "https://isystems.ai/"
+      tags: IA, LLMs, Remoto
+      date: 2024.08 - Presente
+      role: Pesquisador Bolsista em IA
+      location: Brasil
+      description: |
+        + Arquitetou e desenvolveu sistemas baseados em LLM usando Python e LangGraph para: análise de dados em bancos de dados de clientes, análise de desempenho de malhas de controle e otimização de estoque e previsão de demanda.
+        + Implantação de agentes em ambientes de produção, com práticas de melhoria contínua por meio de feedback de usuários (DPO) e especialistas internos (SFT).
+    - company: UNICAMP
+      tags: Ensino, Pesquisa
+      date: 2022.03 - 2023.12
+      role: Auxiliar Docente (PAD - Programa de Apoio Didático)
+      location: Brasil
+      description: |
+        + Orientou alunos de graduação nas disciplinas de Cálculo Numérico (MS211), Instrumentação na Indústria Química (EQ771) e Controle de Processos (EQ817).
+        + Conduziu sessões de resolução de problemas técnicos e atribuições de nota, esclarecendo conceitos complexos em controle de processos e métodos numéricos.
+        + Auxiliou o corpo docente na preparação de materiais educacionais e no gerenciamento de cursos para turmas com mais de 50 alunos.
+
+
+project:
+  show: true
+  order: 3
+  title: Projetos
+  items:
+    - name: MPC baseado em Modelo Neural para um processo experimental de FAD
+      tags: "Iniciação Científica - FAPESP"
+      date: 2023 - 2024
+      description: |
+        Projetou e implementou um sistema de Controle Preditivo de Modelo (MPC) usando Redes Neurais Artificias para otimizar o controle de uma planta piloto de flotação por ar dissolvido (FAD).
+        + Desenvolveu e treinou modelos de redes neurais usando Python e bibliotecas relevantes para prever com precisão a dinâmica do processo a partir de dados de sensores.
+        + Projetou a integração completa de software e hardware, permitindo aquisição de dados em tempo real e execução automatizada do loop de controle.
+        + Foi coautor e publicou os resultados da pesquisa em um artigo de conferência internacional, contribuindo para a área de controle inteligente de processos. [Link para o artigo](https://doi.org/10.1016/B978-0-443-28824-1.50012-0)
+
+
+skill:
+  show: true
+  order: 5
+  title: Habilidades
+  groups:
+    - name: Linguagens de Programação
+      item:
+        - Python (Avançado)
+        - C (Básico)
+        - Go (Básico)
+    - name: Frameworks Python e Bibliotecas
+      item:
+        - PyTorch
+        - FastAPI
+        - LangGraph
+        - Pandas
+        - Gradio
+    - name: Ferramentas de Desenvolvimento e MLOps
+      item:
+        - Docker
+        - Linux
+        - Github Actions
+        - Git
+        - LangSmith
+    - name: Tecnologias em Nuvem
+      item:
+        - AWS
+        - Google Cloud Run
+    - name: Bancos de Dados
+      item:
+        - MongoDB
+        - DuckDB
+education:
+  show: true
+  order: 4
+  title: Educação
+  items:
+    - institution: Universidade Estadual de Campinas (UNICAMP)
+      link:
+      date: 2020-2024
+      major: Engenharia Química
+      degree: Bacharel
+      description: |
+        CR: 0.8110
+
+certificate:
+  show: true
+  order: 6
+  title: Certificados
+  description: |
+  items:
+    - name: "Project: Deep Research with LangGraph"
+      issuer: LangChain Academy
+      date: 2025
+      link: "https://academy.langchain.com/certificates/5rg9usnkfi"
+    - name: "Introduction to LangGraph"
+      issuer: LangChain Academy
+      date: 2025
+      link: "https://academy.langchain.com/certificates/ewin3ut4iz"
+    - name: "CD4ML: Continuous Delivery for Machine Learning"
+      issuer: Alura
+      date: 2024
+      link: "https://cursos.alura.com.br/degree/certificate/20f67983-7ebb-4722-8289-d2b6cbfa7ed8?lang"
+      description: |
+        Teoria e Prática envolvendo MLOps
+
+publication:
+  show: true
+  order: 7
+  title: Publicações
+  items:
+    - title: DAF Turbidity Removal Dynamics Model Employing LSTM Networks with Monte Carlo Dropout
+      authors: Felipe M. M. Sousa, Ivo J. Cunha, Vinicius M. Muller, Flávio V. Silva
+      conference: Computer Aided Chemical Engineering
+      link: 'https://doi.org/10.1016/B978-0-443-28824-1.50012-0'
+
+award:
+  show: false
+  order: 8
+  title: Awards
+  description: |
+    The award section in a resume is a dedicated section where you can showcase any awards you have received. This section is particularly relevant for individuals who have received awards for their work in their field, such as employees who have received performance awards or industry-specific awards. In this section, you should list the name of the award, the organization or institution that awarded it, the date it was awarded, and any other relevant details.
+
+    When including your awards on your resume, be sure to focus on the most significant or relevant awards that showcase your skills and expertise. If you have received a long list of awards, you may want to consider including only the most recent or prestigious awards on your resume.
+
+    By highlighting your awards, you can demonstrate your achievements and accomplishments in your field, and can help differentiate yourself from other candidates. However, if you have not received any awards, it is not necessary to include this section in your resume.
+
+  items:
+    - name: Example Awared One
+      awarder: by Example
+      date: 2022
+      link: '#'
+      description: |
+        It's my Example Awared One by Example.
+    - name: Example Awared Two
+      awarder: by Example
+      date: 2022
+      link:
+      description: |
+        It's my Example Awared Two by Example.
+
+patent:
+  show: false
+  order: 9
+  title: Patents
+  description: |
+    The patent section in a resume is a dedicated section where you can showcase any patents that you have been granted or are in the process of obtaining. This section is particularly relevant for individuals who work in scientific or technical fields, as well as for individuals who have developed innovative products or technologies.
+
+    In this section, you should list the title of the patent, the name of the inventors, the patent number, and the date it was granted. If the patent is pending, you can indicate that it is "pending" or "in review." You may also want to provide a brief description of the technology or invention that the patent covers.
+
+    Including a patent section in your resume can help demonstrate your expertise and accomplishments in your field, and can help you stand out from other candidates. However, if you do not have any patents to list, it is not necessary to include this section in your resume.
+
+    Template for a pending patent:
+
+    + [Inventor Name]. [Pursued Year]. [Title]. [Patent Number], filed [Submitted Date]. Patent pending.
+
+    Template for an approved patent:
+
+    + [Inventor Name]. [Pursued Year]. [Title]. [Patent Number], filed [Submitted Date], [Received Date].
+
+    The following are some examples of patent formats.
+
+    + Foo Bar. 2022. Example patent name one. US 123456, filed Oct 3, 2022. Patent pending.
+    + Foo Bar. 2022. Example patent name two. US 654321, filed Oct 3, 2022, and issued Nov 15, 2022.
+
+organization:
+  show: false
+  order: 10
+  title: Organizations
+  description: |
+    The organization section in a resume, specifically for social contexts, is a section where you can showcase any relevant involvement or leadership positions in social, cultural, or community organizations. This section can highlight your commitment to social causes and your ability to work collaboratively with others towards a common goal.
+
+    In this section, you can list the name of the organization, your role and responsibilities, the duration of your involvement, and any significant achievements or accomplishments. You can also mention any skills or qualities you gained from your involvement, such as leadership, teamwork, communication, or problem-solving skills.
+
+    This section can be especially valuable for candidates seeking positions in the non-profit sector, social work, or community engagement roles, where experience in social or cultural organizations can demonstrate a genuine passion for social causes and a willingness to work collaboratively towards social change. However, it is important to only include organizations that are relevant to the job you are applying for, and avoid listing organizations that may be controversial or potentially offensive.
+
+language:
+  show: true
+  order: 11
+  title: Idiomas
+  items:
+    - idiom: Português
+      level: Nativo
+    - idiom: Inglês
+      level: Profissional
+
+interest:
+  show: false
+  order: 12
+  title: Interests
+  description: |
+    The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.
+
+    Including an interest section in your resume can be helpful if your interests are relevant to the job you are applying for, such as if you are applying for a job in a creative field and your hobbies include painting or writing. It can also be useful if you are applying for a job where teamwork or social skills are important, and you can mention interests that demonstrate those qualities.
+
+    However, it is important to be selective when including an interest section in your resume, and to choose interests that are appropriate and professional. Avoid including controversial or potentially offensive interests, and focus on interests that showcase your positive qualities and strengths.
+
+  items:
+    - item: Reading
+      link: '#'
+    - item: Cooking
+      link:
+
+evaluation:
+  show: false
+  order: 13
+  title: Self-evaluation
+  description: |
+    The self-evaluation section in a resume is a section where you can evaluate and assess your own skills, strengths, and weaknesses. It is typically a short paragraph or bullet points at the end of your resume, which provides a personal perspective on your abilities and how they align with the requirements of the job.
+
+    In this section, you can highlight your achievements, areas of expertise, and any unique qualities or experiences that set you apart from other candidates. You can also mention areas where you are looking to improve or gain further experience.
+
+    A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
+
+reference:
+  show: true
+  order: 14
+  title: Referências
+  items:
+    - name: João Paulo Martin
+      link: '#'
+      title: Tech Leader
+      institution: iSystems
+      email: jp.martin@isystems.ai
+      description: |
+        João Paulo é atualmente a minha liderança direta na iSystems
+
+    - name: Flávio Vasconcelos da Silva
+      link:
+      title: Professor
+      institution: School of Chemical Engineering (FEQ) - University of Campinas (UNICAMP)
+      address: Albert Einstein av. 500
+      email: flaviovs@unicamp.br
+      description: |
+        Dr. Flávio é o meu orientador na FEQ-UNICAMP
+
+close: <strong>Sorry, my resume has been hidden.</strong>
