@@ -33,11 +33,11 @@ $theme-color:       {{ site.theme_color | default: "#1DA1F2" }};
 $contact-delimiter: "{{ site.contact_delimiter | default: "·" }}";
 
 @import
-  "sanitize",
-  "base",
-  "responsive",
-  "print",
-  "fonts"
+  "../_sass/sanitize",
+  "../_sass/base",
+  "../_sass/responsive",
+  "../_sass/print",
+  "../_sass/fonts"
 ;
 
 section {
