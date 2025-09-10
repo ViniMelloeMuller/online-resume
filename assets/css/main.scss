@@ -37,7 +37,8 @@ $contact-delimiter: "{{ site.contact_delimiter | default: "·" }}";
   "../_sass/base",
   "../_sass/responsive",
   "../_sass/print",
-  "../_sass/fonts"
+  "../_sass/fonts",
+  "../_sass/extra"
 ;
 
 section {
