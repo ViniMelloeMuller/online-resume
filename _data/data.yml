@@ -3,21 +3,21 @@ meta:
   language: en              # text language, the value is HTML lang attribute value, default is "en"
 
 basic:
-  name: Foo Bar                      # name
-  title: Backend Developer           # job title
+  name: Vinicius Mello e Müller                      # name
+  title: Chemical Engineer           # job title
   avatar:
-    show: true                       # show or hide avatar
+    show: false                       # show or hide avatar
     path: /assets/images/profile.png # file path or link to your avatar
 
 contact:
-  location: Beijing, China  # location, text or markdown link syntax
-  email: me@example.com     # email address
-  phone: +86-111-2222-3333  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: example.com      # site link without schema, like example.com, will automatically prepend "https://"
+  location: Indaiatuba, SP, Brazil  # location, text or markdown link syntax
+  email: viniciusmelloemuller@gmail.com     # email address
+  phone: +55-19-99699-1787  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  # website: www.linkedin.com/in/vinicius-mello-e-müller-243143221      # site link without schema, like example.com, will automatically prepend "https://"
 
-  gender:                   # gender or pronoun
-  birthday:                 # birthday
-  nationality:              # nationality
+  # gender: he                   # gender or pronoun
+  # birthday: 01/02/2001                 # birthday
+  # nationality: Brazilian              # nationality
   visa:                     # passport visa
   drivinglicense:           # driving licence
 
@@ -25,7 +25,7 @@ contact:
   # Please copy the <> part of the comment in the link to your profile on the relevant site and paste it here.
 
   # programming
-  github:                   # https://github.com/<username>
+  github:                   ViniMelloeMuller
   gitlab:                   # https://gitlab.com/<username>
   bitbucket:                # https://bitbucket.com/<username>
   git:                      # selfhost git site link without schema "https://"
@@ -38,7 +38,7 @@ contact:
   tryhackme:                # https://tryhackme.com/p/<username>
 
   # research
-  googlescholar:            # https://scholar.google.com/citations?user=<username>
+  googlescholar:  gYkROuIAAAAJ&hl # https://scholar.google.com/citations?user=<username>
   researchgate:             # https://www.researchgate.net/profile/<username>
   orcid:                    # https://orcid.org/<id>
   figshare:                 # https://figshare.com/authors/<name/id>
@@ -46,260 +46,135 @@ contact:
 
   # writing
   medium:                   # https://medium.com/@<username>
-  wordpress:                # https://<username>.wordpress.com
-  blogger:                  # https://<username>.blogspot.com
-  devto:                    # https://dev.to/<username>
-
-  # creativity
-  figma:                    # https://www.figma.com/@<username>
-  behance:                  # https://www.behance.net/<username>
-  dribbble:                 # https://dribbble.com/<username>
-  artstation:               # https://www.artstation.com/<username>
-  pixiv:                    # https://www.pixiv.net/users/<id>
-  pinterest:                # https://www.pinterest.com/<username>
-  producthunt:              # https://www.producthunt.com/@<username>
 
   # cv
-  linkedin:                 # https://linkedin.com/in/<username>
-  indeed:                   # https://my.indeed.com/p/<id>
-  xing:                     # https://www.xing.com/profile/<username>
-  fiverr:                   # https://www.fiverr.com/<username>
-  freelancer:               # https://www.freelancer.com/u/<username>
-
-  # chat
-  wechat:                   # wechat id, text or markdown link syntax
-  whatsapp:                 # https://wa.me/<number>
-  telegram:                 # https://t.me/<username>
-  messenger:                # https://m.me/<username>
-  line:                     # https://line.me/R/ti/p/@<lineid>
-  viber:                    # https://vb.me/<username>
-  threema:                  # https://threema.id/<userid>
-  signal:                   # signal username, text or markdown link syntax
-  wire:                     # wire username, text or markdown link syntax
-
-  # social
-  stackoverflow:            # https://stackoverflow.com/users/<id>
-  stackexchange:            # https://stackexchange.com/users/<id>
-  quora:                    # https://www.quora.com/profile/<username>
-  zhihu:                    # https://www.zhihu.com/people/<username>
-  goodreads:                # https://www.goodreads.com/user/show/<username>
-  strava:                   # https://www.strava.com/athletes/<id>
-  wikipedia:                # https://www.wikipedia.org/wiki/User:<username>
-  twitter:                  # https://twitter.com/<username>
-  x:                        # https://x.com/<username>
-  mastodon:                 # text, the format must be like "username@yourserver.com"
-  threads:                  # https://www.threads.net/@<username>
-  vk:                       # https://vk.com/<username>
-  weibo:                    # weibo username, text or markdown link syntax
-  instagram:                # https://instagram.com/<username>
-  unsplash:                 # https://unsplash.com/@<username>
-  _500px:                   # https://500px.com/p/<username>
-  youtube:                  # https://www.youtube.com/@<username>
-  tiktok:                   # https://www.tiktok.com/@<username>
-  snapchat:                 # https://www.snapchat.com/add/<username>
-  twitch:                   # https://www.twitch.tv/<username>
+  linkedin:                vinicius-mello-e-müller-243143221 
 
 profile:
   show: true
   order: 1
   title: Profile
   description: |
-    The profile section in a resume is a brief summary of the applicant's skills, qualifications, and experience. The purpose of this section is to provide a snapshot of the applicant's professional background and highlight their most relevant accomplishments and strengths. It may include information such as the applicant's career objectives, years of experience, areas of expertise, and key achievements.
-
-    A well-crafted profile section can help to grab the attention of potential employers and encourage them to read on and learn more about the applicant's qualifications and experience.
+    Chemical Engineer specializing in the application of AI to solve complex industrial challenges. Experienced in developing and implementing solutions for process control, anomaly detection, and Fault Detection & Diagnosis (FDD). Currently pursuing a Master's degree with a research focus on leveraging Large Language Models (LLMs) to enhance process safety analysis (HAZOP).
 
 experience:
   show: true
   order: 2
   title: Experiences
-  description: |
-    The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
-
   items:
-    - company: Second Company
-      link: '#'
-      tags: Full-time
-      date: 2018.03 - 2019.03
-      role: Backend Developer
-      location: Beijing
+    - company: iSystems
+      link: "https://isystems.ai/"
+      tags: AI, LLMs, Remote
+      date: 2024.08 - Present
+      role: AI Research Fellow
+      location: Brazil
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        + Architected and developed LLM-based systems using Python and LangGraph for: data analysis in customer databases, control loop performance analysis, and inventory optimization and demand forecasting.
+        + Deployment of agents in production environments, with continuous improvement practices through feedback from users (DPO) and internal experts (SFT)
+    - company: UNICAMP
+      tags: Academia, Teaching
+      date: 2022.03 - 2023.12
+      role: Teaching Assistant (PAD - Teaching Support Program)
+      location: Brazil
+      description: |
+        + Mentored undergraduate students in the disciplines of Numerical Calculus (MS211), Instrumentation in the Chemical Industry (EQ771) and Process Control.
+        + Led technical problem-solving sessions and graded assignments, clarifying complex concepts in process control and numerical methods.
+        + Assisted faculty in preparing educational materials and managing coursework for classes of 50+ students.
 
-    - company: First Company
-      link:
-      tags: Part-time, remote
-      date: 2017.03 - 2018.03
-      role: Backend Developer
-      location: Beijing
-      description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
 
 project:
   show: true
   order: 3
   title: Projects
-  description: |
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
-
-    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
-
-    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
-
   items:
-    - name: Personal project
-      link: '#'
-      tags:
-      date: 2015 - 2017
+    - name: ANN-Based MPC For an Experimental Dissolved Air Flotation Process
+      tags: "Undergraduate Research - FAPESP"
+      date: 2023 - 2024
       description: |
-        Personal project description...
-        + First
-        + Second
+        Designed and implemented a Model Predictive Control (MPC) system leveraging Artificial Neural Networks (ANNs) to optimize the control of a dissolved air flotation pilot plant.
+        + Developed and trained neural network models using Python and relevant libraries to accurately predict the process dynamics from sensor data.
+        + Engineered the complete software and hardware integration, enabling real-time data acquisition and automated control loop execution.
+        + Co-authored and published the research findings in an international conference paper, contributing to the field of intelligent process control. [Link to paper](https://doi.org/10.1016/B978-0-443-28824-1.50012-0)
 
-    - name: OSS project
-      link:
-      tags: committer
-      date:
-      description: |
-        OSS project description...
-        + First
-        + Second
 
 skill:
   show: true
-  order: 4
+  order: 5
   title: Skills
-  description: |
-    The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
-
-    The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
-
-    When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
-
-    There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
-
-  items:
-    - name: Skill A
-      level: 5
-    - name: Skill B
-      level: 4
-    - name: Skill C
-      level: 3
-    - name: Skill D
-      level: 4
-    - name: Skill E
-      level: 3
-    - name: Skill F
-      level: 1
-    - name: Skill G
-      level: 4
-    - name: Skill H
-      level: 4
-    - name: Skill I
-      level: 3
-
   groups:
-    - name: Group A Skills
+    - name: Programming Languages
       item:
-        - Skill A
-        - Skill B
-        - Skill C
-        - Skill D
-    - name: Group B Skills
+        - Python (Advanced)
+        - C (Basic)
+        - Go (Basic)
+    - name: Python Frameworks & Libraries
       item:
-        - Skill E
-        - Skill F
-        - Skill G
-    - name: Group C Skills
+        - PyTorch
+        - FastAPI
+        - LangGraph
+        - Pandas
+        - Gradio
+    - name: Developer & MLOps Tools
       item:
-        - Skill H
-        - Skill I
-
+        - Docker
+        - Linux
+        - Github Actions
+        - Git
+        - LangSmith
+    - name: Cloud Technologies
+      item:
+        - AWS
+        - Google Cloud Run
+    - name: Databases
+      item:
+        - MongoDB
+        - DuckDB
 education:
   show: true
-  order: 5
+  order: 4
   title: Education
-  description: |
-    The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
-
-    In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
-
   items:
-    - institution: Example University
-      link: '#'
-      date: 2015 - 2018
-      major: Machine Learning
-      degree: Master
-      description: |
-        Additional information for this institution.
-        + First
-        + Second
-
-    - institution: Example University
+    - institution: University of Campinas (UNICAMP)
       link:
-      date: 2011 - 2015
-      major: Computer Science
+      date: 2020-2024
+      major: Chemical Engineering
       degree: Bachelor
       description: |
-        Additional information for this institution.
-        + First
-        + Second
+        GPA: 81.10%
 
 certificate:
   show: true
   order: 6
   title: Certificates
   description: |
-    The certificate section in a resume is a dedicated section where you can showcase any additional certifications or specialized training you have received. This section provides potential employers with a more complete picture of your skills and expertise, and can help you stand out from other candidates.
-
-    Certificates can come from a variety of sources, such as online courses, workshops, or professional development programs. Examples of certificates that might be relevant to include on your resume could include certifications in a particular software or technology, industry-specific certifications, or certifications related to a specific skill or area of expertise.
-
-    When including your certificates in your resume, be sure to provide the name of the certification, the institution or organization that issued it, and the date it was issued. You may also want to include a brief description of the skills or knowledge that the certification demonstrates.
-
-    The certificate section of your resume should be tailored to the specific job you are applying for, and should only include certifications that are relevant to the position. By highlighting your certifications, you can demonstrate your commitment to professional development and your expertise in a particular area.
-
   items:
-    - name: Example Certificate One
-      issuer: by Example
-      date: 2020
-      link: '#'
+    - name: "Project: Deep Research with LangGraph"
+      issuer: LangChain Academy
+      date: 2025
+      link: "https://academy.langchain.com/certificates/5rg9usnkfi"
+    - name: "Introduction to LangGraph"
+      issuer: LangChain Academy
+      date: 2025
+      link: "https://academy.langchain.com/certificates/ewin3ut4iz"
+    - name: "CD4ML: Continuous Delivery for Machine Learning"
+      issuer: Alura
+      date: 2024
+      link: "https://cursos.alura.com.br/degree/certificate/20f67983-7ebb-4722-8289-d2b6cbfa7ed8?lang"
       description: |
-        It's my Example Certificate One by Example.
-    - name: Example Certificate Two
-      issuer: by Example
-      date: 2020
-      link:
-      description: |
-        It's my Example Certificate Two by Example.
+        Theory and practice involving MLOps
 
 publication:
   show: true
   order: 7
   title: Publications
-  description: |
-    The publication section in a resume is a dedicated section where you can showcase any publications that you have authored or contributed to. This section is particularly relevant for individuals in academic or research fields, but can also be relevant for individuals in other fields who have published articles or papers.
-
-    Publications can include academic journal articles, conference papers, book chapters, reports, or other written works. In this section, you should list the title of the publication, the names of any co-authors, the name of the publication or conference, the date of publication, and any other relevant details.
-
-    If you have a long list of publications, you may want to consider including only the most relevant or significant publications on your resume. Alternatively, you could create a separate publication list and provide it as a separate document, either in your application materials or upon request.
-
-    Including a publication section in your resume can help demonstrate your expertise and credibility in your field, and can help you stand out from other candidates. However, if you do not have any publications to list, it is not necessary to include this section in your resume.
-
   items:
-    - title: Example Publication in Action
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link: '#'
-    - title: The Art of Example Publication
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link:
+    - title: DAF Turbidity Removal Dynamics Model Employing LSTM Networks with Monte Carlo Dropout
+      authors: Felipe M. M. Sousa, Ivo J. Cunha, Vinicius M. Muller, Flávio V. Silva
+      conference: Computer Aided Chemical Engineering
+      link: 'https://doi.org/10.1016/B978-0-443-28824-1.50012-0'
 
 award:
-  show: true
+  show: false
   order: 8
   title: Awards
   description: |
@@ -324,7 +199,7 @@ award:
         It's my Example Awared Two by Example.
 
 patent:
-  show: true
+  show: false
   order: 9
   title: Patents
   description: |
@@ -348,7 +223,7 @@ patent:
     + Foo Bar. 2022. Example patent name two. US 654321, filed Oct 3, 2022, and issued Nov 15, 2022.
 
 organization:
-  show: true
+  show: false
   order: 10
   title: Organizations
   description: |
@@ -362,19 +237,14 @@ language:
   show: true
   order: 11
   title: Languages
-  description: |
-    The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
-
-    It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
-
   items:
-    - idiom: Chinese
+    - idiom: Portuguese
       level: Native
     - idiom: English
       level: Professional
 
 interest:
-  show: true
+  show: false
   order: 12
   title: Interests
   description: |
@@ -391,7 +261,7 @@ interest:
       link:
 
 evaluation:
-  show: true
+  show: false
   order: 13
   title: Self-evaluation
   description: |
@@ -405,34 +275,22 @@ reference:
   show: true
   order: 14
   title: References
-  description: |
-    A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. These individuals are typically former managers, colleagues, or mentors who have worked closely with you in the past and can provide insight into your abilities and work style.
-
-    It's important to note that including a reference section in a resume is not always necessary, and some employers may prefer to request references separately. If you do choose to include a reference section, it should typically be located at the end of your resume.
-
-    When listing references, be sure to include the individual's name, job title, company name, phone number, and email address. It's also a good idea to ask for the individual's permission before listing them as a reference, and to let them know what kind of job you are applying for so they can speak to your relevant skills and experience.
-
-    It's important to choose references who can provide a positive and comprehensive evaluation of your work. Avoid listing family members or friends as references, and instead focus on individuals who can speak to your professional abilities and accomplishments.
-
   items:
-    - name: Foo One
+    - name: João Paulo Martin
       link: '#'
-      title: Backend Developer
-      institution: Second Company
-      address: 1234 Example St, XXX, XY 11111
-      email: foo.one@example.com
-      phone: 111-222-333
+      title: Tech Leader
+      institution: iSystems
+      email: jp.martin@isystems.ai
       description: |
-        Foo One was my colleague in Second Company.
+        João is my current leader at iSystems
 
-    - name: Bar Two
+    - name: Flávio Vasconcelos da Silva
       link:
       title: Professor
-      institution: Example University
-      address: 4321 Example St, YYY, XY 22222
-      email: bar.two@example.com
-      phone: 444-555-666
+      institution: School of Chemical Engineering (FEQ) - University of Campinas (UNICAMP)
+      address: Albert Einstein av. 500
+      email: flaviovs@unicamp.br
       description: |
-        Bar Two was my advisor at Example University.
+        Dr. Flávio was my advisor at UNICAMP.
 
 close: <strong>Sorry, my resume has been hidden.</strong>
